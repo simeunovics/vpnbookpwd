@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const Tesseract = require("tesseract.js");
 const axios = require("axios");
 
