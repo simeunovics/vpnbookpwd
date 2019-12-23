@@ -69,4 +69,4 @@ workflows:
           filters:
             branches:
               only:
-                - /releases.*/
+                - master
