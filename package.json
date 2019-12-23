@@ -4,7 +4,7 @@
   "description": "Print current VPM Book password",
   "main": "src/index.js",
   "bin": {
-    "vpnbookpwd": "./src/index.js"
+    "vpnbookpwd": "src/index.js"
   },
   "scripts": {
     "start": "node src/index.js",

@@ -1,6 +1,6 @@
 # vpnbookpwd
 
-Print current VPM Book password
+Print current VPNBook OpenVPN password
 
 # Usage
 
