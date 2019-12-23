@@ -1,0 +1,32 @@
+{
+  "name": "vpnbookpwd",
+  "version": "0.1.0",
+  "description": "Print current VPM Book password",
+  "main": "src/index.js",
+  "bin": {
+    "vpnbookpwd": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simeunovics/vpnbookpwd.git"
+  },
+  "keywords": [
+    "VPN Book",
+    "OpenVPN",
+    "Password"
+  ],
+  "author": "Simo Simeunovic <simeunovics@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/simeunovics/vpnbookpwd/issues"
+  },
+  "homepage": "https://github.com/simeunovics/vpnbookpwd#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "tesseract.js": "^2.0.1"
+  }
+}
