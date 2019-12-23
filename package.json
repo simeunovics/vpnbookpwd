@@ -1,6 +1,6 @@
 {
   "name": "vpnbookpwd",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Print current VPM Book password",
   "main": "src/index.js",
   "bin": {
