@@ -23,6 +23,7 @@ async function resolvePasswordImageRelativeUrl(vpnBookUrl) {
 
 async function imageToText(imageUrl) {
   const { data } = await Tesseract.recognize(imageUrl, "eng", {
+    cacheMethod: "readOnly",
     logger: () => {}
   });
 
